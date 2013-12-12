@@ -7,3 +7,12 @@ Example:
 --------
 
 ![image](https://raw.github.com/Julioacarrettoni/UILabel-BackgroundAware/master/screenshot.png)
+
+USAGE:
+------
+
+Just import "UILabel+BackgroundAware.h" on your prefix file or where you want to use it and after the background changes just call the method
+`- (void) changeTextColorToUnmatchTheBG`
+On the UILabel you want to change the color to, example:
+
+`[label changeTextColorToUnmatchTheBG];`
